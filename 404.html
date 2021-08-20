@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <head>
     <!-- Meta info -->
-    <title>Page not found — PLEXION</title>
+    <title>page not found | plexion</title>
     <!-- Display parameters -->
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/stylesheet.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!-- Favicon -->
     <link rel="shortcut icon" type="ico" href="/favicon.ico"/>
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Load JS -->
-    <script src="/scroll.js"></script>
+    <script src="/js/scroll.js"></script>
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <script src="https://kit.fontawesome.com/20a071237e.js" crossorigin="anonymous"></script>
@@ -39,13 +39,13 @@
         <p class="text-14">If you're certain the page existed at some point, try replacing the start with <code>legacy.plexion.dev</code> or <code>old.plexion.dev</code></p>
         <div class="bg-filter"></div>
     </section>
-    <footer class="dark buttons" style="background-image: url('/banner.png');">
+    <footer class="dark">
         <div class="flex">
             <span class="brand">
                 <div class="main">
                     <h1 class="brand-font">plexion</h1>
                     <p>Powered by Shakespeare</p>
-                    <a role="button" onclick="toggleDyslexicFont()" href="javascript:void(0);" class="button left">Toggle Dyslexic Font</a>
+                    <a role="button" onclick="toggleDyslexicFont()" href="javascript:void(0);" class="button left focus accent">Toggle Dyslexic Font</a>
                 </div>
             </span>
             <span class="links">
@@ -74,6 +74,7 @@
                         <li><a href="https://github.com/plexiondev/plexiondev.github.io/commits/master">Archived Releases</a></li>
                         <li><a href="/terms">Content Terms</a></li>
                         <li><a href="/gnu">Web License</a></li>
+                        <li><a href="/experiments">experiments</a></li>
                     </ul>
                 </span>
             </span>
@@ -99,9 +100,15 @@
         </div>
     </footer>
 </body>
+<!-- Beta scripts -->
+<script src="/experiments/helvetica.js"></script>
+<script src="/experiments/plexionblue.js"></script>
+<script src="/experiments/torus.js"></script>
+<script src="/experiments/light.js"></script>
+<script src="/experiments/accents.js"></script>
+<script src="/experiments/minimalcards.js"></script>
 <!-- Final script importing (after page rendered) -->
-<script src="/settings/dyslexic.js"></script>
-<script src="/settings/heavy-alternative.js"></script>
-<script src="/settings/serif-fonts.js"></script>
-<script src="/settings/reduced-motion.js"></script>
-<script src="/settings/reduced-saturation.js"></script>
+<script src="/js/settings/dyslexic.js"></script>
+<script src="/js/settings/reduced-motion.js"></script>
+<script src="/js/settings/reduced-saturation.js"></script>
+<script src="/js/settings/background-videos.js"></script>
