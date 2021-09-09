@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-LightIta.woff2') format('woff2'),
+        url('ABCGintoNormal-LightIta.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-Thin.woff2') format('woff2'),
+        url('ABCGintoNormal-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-Medium.woff2') format('woff2'),
+        url('ABCGintoNormal-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-Regular.woff2') format('woff2'),
+        url('ABCGintoNormal-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-MediumIta.woff2') format('woff2'),
+        url('ABCGintoNormal-MediumIta.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-RegularIta.woff2') format('woff2'),
+        url('ABCGintoNormal-RegularIta.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-Light.woff2') format('woff2'),
+        url('ABCGintoNormal-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-BlackIta.woff2') format('woff2'),
+        url('ABCGintoNormal-BlackIta.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-BoldIta.woff2') format('woff2'),
+        url('ABCGintoNormal-BoldIta.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-Black.woff2') format('woff2'),
+        url('ABCGintoNormal-Black.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-ThinIta.woff2') format('woff2'),
+        url('ABCGintoNormal-ThinIta.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url('ABCGintoNormal-Bold.woff2') format('woff2'),
+        url('ABCGintoNormal-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
